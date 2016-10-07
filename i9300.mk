@@ -72,6 +72,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    Camera2 \
     camera.smdk4x12
 
 # f2fs
