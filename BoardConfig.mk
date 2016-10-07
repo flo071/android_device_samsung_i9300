@@ -48,6 +48,9 @@ TARGET_POWERHAL_VARIANT := pegasusq
 # Selinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/i9300/selinux
+    
+#Camera
+TARGET_CAMERA_APP := Camera2
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
