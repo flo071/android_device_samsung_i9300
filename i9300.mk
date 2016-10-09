@@ -60,6 +60,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	libsamsung_symbols \
 	ril-wrapper \
+    	librmnetctl \
+    	libxml2 \
 	libprotobuf-cpp-full
 
 # NFC
