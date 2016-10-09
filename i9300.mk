@@ -64,6 +64,11 @@ PRODUCT_PACKAGES += \
     	libxml2 \
 	libprotobuf-cpp-full
 
+# Telephony-ext
+ PRODUCT_PACKAGES += telephony-ext
+ PRODUCT_BOOT_JARS += telephony-ext
+
+
 # NFC
 PRODUCT_PACKAGES += \
 	nfc.exynos4 \
