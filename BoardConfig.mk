@@ -16,7 +16,7 @@
 include device/samsung/smdk4412-common/BoardCommonConfig.mk
 
 # CM Hardware
-TARGET_DISABLE_CMSDK := true
+TARGET_DISABLE_CMSDK := false
 
 # Bionic
 MALLOC_SVELTE := true
